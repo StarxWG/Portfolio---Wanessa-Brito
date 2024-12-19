@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* corpo do layout */
+* {
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal !important;
+}
+
+#corpo {
+    background-color: #000;
+}
+
+/* tudo na navbar - logo, nome e home da navbar */
+#name {
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: auto;
+}
+
+.home {
+    margin-right: 20px;
+    font-size: 20px !important;
+}
+
+.home:hover {
+    color: #6D3B91 !important;
+}
+
+#btn-white, .card-botao, .botao-enviar {
+    border-radius: 40px !important;
+}
+
+#btn-white:hover {
+    background-color: #6D3B91 !important;
+    transition: 1s;
+    color: #ffffff !important;
+}
+
+.navbar.scrolled {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.scrolled #name,
+.navbar.scrolled .navbar-toggler-icon,
+.navbar.scrolled .nav-link,
+.navbar.scrolled .btn {
+    color: #000000 !important;
+}
+
+.navbar .nav-link:hover {
+    color: #6D3B91 !important;
+}
+
+.navbar.scrolled #btn-white,
+.card-botao,
+.botao-enviar {
+    background-color: #000000 !important;
+    color: white !important;
+    border-radius: 40px !important;
+}
+
+.navbar.scrolled #btn-white:hover,
+.card-botao:hover,
+.botao-enviar:hover {
+    background-color: #6D3B91 !important;
+    transition: 1s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* parte da descrição ft e text */
+#descricao1, #my-ft {
+    margin-top: 150px;
+}
+
+#my-ft {
+    width: 100%;
+    max-width: 300px;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.titulo2 {
+    font-size: 40px;
+}
+
+.subtitulo {
+    color: #ffffff;
+    opacity: 70%;
+    font-size: 15px;
+}
+
+.icons {
+    margin-left: 15px;
+}
+
+/* linha que quebra o layout*/
+.hr{
+    color: #ffffff;
+    border: 2px solid #6D3B91;
+    width: 100%;
+    margin-top: 175px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* sobre mim */
+#sobre-mim{
+    margin-top: 40px;
+}
+
+.text{
+    width: 50%;
+    padding-top: 42px;
+    margin: auto;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#soft-skills{
+    margin: 62px 0 62px 0;   
+}
+
+#skills-2{
+    margin: 30px 0 62px 0;
+}
+
+/* seção de educação */
+.white-section {
+    background-color: #ffffff;
+}
+
+.educacao {
+    margin-left: 20px;
+}
+
+#titulo-educacao {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#adm, #ds, #letras, #tecnico-ds {
+    margin: auto;
+    font-size: 20px;
+}
+
+.subtitulo-ano {
+    opacity: 70%;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/* área dos projetos */
+.titulo-projeto{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.botao-card {
+    display: flex;
+    gap: 30px;
+}
+
+.botao-card .card-botao {
+    flex: 1;
+    border: none;
+}
+
+#parte-dois-projeto{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* área do rodapé */
+footer {
+    height: auto;
+    background-color: #C9A9DF;
+}
+
+.enviar-text {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inputs-envio {
+    border-radius: 40px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    padding-left: 10px;
+    max-width: 300px;
+}
+
+#mensagem {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: 1px solid #4CAF50;
+    background-color: #d5fcc6;
+    color: #000;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+
+
+.tooltip-inner {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* font
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400; light - 300, bold - 700
+    font-style: normal;
+} */
